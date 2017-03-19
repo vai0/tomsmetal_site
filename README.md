@@ -1,4 +1,4 @@
-#Tom's Metal website re-design.
+# Tom's Metal website re-design.
 
 + Complete redesign of the tomsmetal.com website. See original site [here](http://www.tomsmetal.com/).
 + Built from scratch with only HTML and CSS.
