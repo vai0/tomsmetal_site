@@ -1,0 +1,499 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	background: url(images/bg/1.jpg) no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: arial, sans-serif;
+	font-size: 100%; 
+	line-height: 1.5;
+	text-align: center;
+	width: 100%;
+	color: #EBECE8;
+}
+
+.mainNav {
+	position: fixed;
+	margin: 3% 3%;
+	display: block;
+}
+
+.mainNav > ul {
+	list-style: none;
+	text-align: left;
+}
+
+.mainNav ul li {
+	padding-bottom: 15%;
+}
+
+.mainNav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.mainNav a:link,.mainNav a:visited {
+	color: #EBECE8;
+}
+
+.mainNav a:hover,.mainNav a:active {
+	color: #75FF66;
+}
+
+body#home a#homenav {
+	color: #06C40B;
+}
+
+body#projects a#projectsnav {
+	color: #06C40B;
+}
+
+body#about a#aboutnav {
+	color: #06C40B;
+}
+
+.jumbotron-container {
+	position: absolute;
+	top: 50%;
+	margin-top: -200px;
+	width: 100%;
+	left: 0;
+}
+
+#jumbotron {
+	width: 50%;
+	height: 50%;
+	background-color: rgba(15,15,15,0.8);
+	margin: auto;
+}
+
+#logohome {
+	width: 90%;
+	padding: 15px;
+	margin: auto;
+}
+
+#address {
+	font-size: 110%;
+	font-weight: bold;
+	padding-top: 3%;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+#phone {
+	font-size: 110%;
+	font-weight: bold;
+	padding-bottom: 2%;
+	letter-spacing: 1px;
+}
+
+#homehr {
+	width: 15%;
+	border: 1px solid #EBECE8;
+}
+
+#welcome {
+	margin: auto;
+	width: 90%;
+	padding: 15px;
+}
+
+.homeFooter {
+	width: 100%;
+	position: absolute;
+	bottom: 3%;
+	right: 3%;
+	text-align: right;
+	font-size: 80%;
+}
+
+.container {
+	display: inline-block;
+	width: 70%;
+	margin: 3% auto;
+	background-color: #DDDDDD;
+}
+
+.logobg{
+	background-color: #121212;
+	width: 100%;
+}
+
+#logoarticle {
+	width: 50%;
+	margin: 3% auto;
+}
+
+.project-category {
+	width: 92%;
+	margin: 1% auto;
+	padding: 3%;
+	text-align: center;
+	color: #000000;
+	font-size: 180%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	background-color: #FCFCFC;
+	border-bottom: 3px solid #BABCB1;
+	border-bottom-left-radius: 3%;
+	border-bottom-right-radius: 3%;
+}
+
+.project-container {
+	width: 98%;
+	margin-bottom: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3px solid #BABCB1;
+	border-bottom-left-radius: 3%;
+	border-bottom-right-radius: 3%;
+}
+
+.bottom-container {
+	margin-bottom: 1%;
+}
+
+.project-content {
+	float: right;
+	width: 34%;
+	height: 400px;
+	color: #161713;
+	text-align: left;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 87.5%;
+	background-color: #FCFCFC;
+}
+
+.project-title {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 110%;
+	text-transform: uppercase;
+}
+
+.clear {
+	clear: both;
+}
+
+.project-image {
+	float: left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 60%;
+	height: 400px;
+}
+
+#sfap {
+	background: url(images/projects/thumbnail/sfap1_tn.jpg) no-repeat center center;
+}
+
+#ct {
+	background: url(images/projects/ct1.jpg) no-repeat center center;
+}
+
+#bart {
+	background: url(images/projects/thumbnail/bart2_tn.jpg) no-repeat center center;
+}
+
+#p43 {
+	background: url(images/projects/thumbnail/p43_tn.jpg) no-repeat center center;
+}
+
+#cs {
+	background: url(images/projects/cs.jpg) no-repeat center center;
+}
+
+#davis {
+	background: url(images/projects/davis2.jpg) no-repeat center center;
+}
+
+.containerFooter
+{
+	background-color: #121212;
+	padding: 3%;
+	font-size: 80%;
+}
+
+.footeravatar {
+	width: 7%;
+	height: 7%;
+	margin: 2%;
+	border-radius: 100%;
+	border: 3px solid #E8E9E4;
+}
+
+.article-image {
+	display: block;
+	width: 98%;
+	margin: auto;
+	margin-top: 1%;
+}
+
+.article-container {
+	width: 98%;
+	margin: 0% 1% 1% 1%;
+	background-color: #FCFCFC;
+}
+
+.about-header {
+	width: 100%;
+	padding-top: 4%;
+	color: #000000;
+	font-size: 180%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#about-content {
+	color: #000000;
+	text-align: left;
+	font-size: 87.5%;
+	padding: 4%;
+}
+
+#about-content div {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#about-content div h3 {
+	text-align: center;
+}
+
+#about-content ul {
+	width: 95%;
+	margin: auto;
+}
+
+#about-content ul li {
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	padding: 1%;
+}
+
+/* For smartphones */
+@media only screen and (max-width: 700px) {
+	
+	body {
+		font-size: 100%; /* base font-size is 14px */
+		line-height: 1.6;
+	}
+
+	.mainNav {
+		display: block;
+		position: relative;
+		margin: auto;
+		width: 100%;
+		padding-top: 5%;
+		background-color: rgba(15,15,15,0.9);
+	}
+
+	.mainNav > ul {
+		text-align: center;
+	}
+
+	.mainNav ul li {
+		padding-bottom: 5%;
+	}
+
+	.jumbotron-container {
+		display: block;
+		position: relative;
+		margin: 5% auto;
+	}
+
+	#jumbotron {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#address {
+		font-size: 120%;
+	}
+
+	#phone {
+		font-size: 120%;
+	}
+
+	#welcome {
+		font-size: 110%;
+	}
+
+	.homeFooter {
+		position: relative;
+		right: 0;
+		text-align: center;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+
+	.container {
+		width: 90%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	#logoarticle {
+		width: 90%;
+	}
+
+	.project-category {
+		width: 90%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-size: 150%;
+		letter-spacing: 3px;
+	}
+
+	.project-content {
+		width: 90%;
+		margin-left: 2%;
+		margin-right: 2%;
+		height: auto;
+		padding-bottom: 3%;
+	}
+
+	.project-title {
+		margin-top: 3%;
+		margin-bottom: 3%;
+		font-size: 100%;
+	}
+
+	.project-image {
+		width: 96%;
+		height: 250px;
+		margin-left: 2%;
+	}
+
+	.bottom-container {
+		margin-bottom: 2%;
+	}
+}
+
+/* For tablets */
+@media only screen and (min-width: 701px) and (max-width: 1024px) and (min-height: 625px) {
+	body {
+		font-size: 100%; /* base font-size is 14px */
+	}
+
+	.mainNav {
+		position: relative;
+		display: block;
+		margin: 3% auto;
+		width: 80%;
+	}
+
+	.mainNav > ul {
+		list-style: none;
+		text-align: center;
+	}
+
+	.mainNav ul li {
+		padding: 0 2%;
+		display: inline-block;
+	}
+
+	.jumbotron-container {
+		position: absolute;
+		top: 50%;
+		margin-top: -200px;
+		width: 100%;
+		left: 0;
+	}
+
+	#jumbotron {
+		width: 80%;
+	}
+
+	.homeFooter {
+		position: fixed;
+		margin: auto;
+		right: 0;
+		text-align: center;
+	}
+
+	.container {
+		width: 90%;
+	}
+}
+
+/* For tablets with smaller heights so jumbotron doesn't overlap the nav */
+@media only screen and (min-width: 701px) and (max-width: 1024px) and (max-height: 624px) {
+	body {
+		font-size: 100%; /* base font-size is 14px */
+	}
+
+	.mainNav {
+		position: relative;
+		display: block;
+		margin: 3% auto;
+		width: 80%;
+	}
+
+	.mainNav > ul {
+		list-style: none;
+		text-align: center;
+	}
+
+	.mainNav ul li {
+		padding: 0 2%;
+		display: inline-block;
+	}
+
+	.jumbotron-container {
+		display: block;
+		position: relative;
+		margin: 5% auto;
+		width: 100%;
+	}
+
+	#jumbotron {
+		width: 80%;
+	}
+
+	.homeFooter {
+		position: relative;
+		display: block;
+		margin: 3% auto;
+		right: 0;
+		text-align: center;
+	}
+	.container {
+		width: 90%;
+	}
+}
+
+
